@@ -13,6 +13,7 @@ extern void FBPInitConfirmHooks(void);
 extern void FBPInitChromeHooks(void);
 extern void FBPInitOLEDHooks(void);
 extern void FBPInitReelsDownloader(void);
+extern void FBPInitReelsTabFilter(void);
 extern void FBPInitLinkHooks(void);
 extern void FBPInitLinkBridge(void);
 
@@ -25,6 +26,7 @@ static void FBPInstallHooks(void) {
     FBPInitChromeHooks();
     FBPInitOLEDHooks();
     FBPInitReelsDownloader();
+    FBPInitReelsTabFilter();
     FBPInitLinkHooks();
     FBPInitLinkBridge();
 }
