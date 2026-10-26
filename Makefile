@@ -36,6 +36,7 @@ FacebookPlus_FILES = \
 	src/Features/AppChrome/FBPChromeHooks.xm \
 	src/Features/OLED/FBPOLEDHooks.xm \
 	src/Features/Downloads/FBPReelsDownloader.xm \
+	src/Features/ReelsTab/FBPReelsTabFilter.xm \
 	src/Features/Downloads/FBPStoryDownloader.xm \
 	src/Features/Links/FBPLinkHooks.xm \
 	src/Features/Links/FBPLinkBridge.xm \
